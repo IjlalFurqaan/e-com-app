@@ -17,7 +17,7 @@ import Register from "./pages/Register";
 function ProtectedRoute({ children }) {
   const { user } = useAuth();
   if (!user) {
-    return <Navigate to={"/Login"} />;
+    return <Navigate to={"/login"} />;
   }
   return children;
 }
