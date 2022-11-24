@@ -58,7 +58,10 @@ export default function Checkout() {
         mb: 4,
       }}
     >
-      <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
+      <Paper
+        variant="outlined"
+        sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}
+      >
         <Typography component="h1" variant="h4" align="center">
           Checkout
         </Typography>
@@ -81,7 +84,8 @@ export default function Checkout() {
               Thank you for your order
             </Typography>
             <Typography>
-              Your order number is #12234. We have emailed you the details regarding your order confirmation.
+              Your order number is #12234. We have emailed you the details
+              regarding your order confirmation.
             </Typography>
             <Link to="/">Shop More</Link>
           </>
